@@ -1,0 +1,265 @@
+
+
+body{
+    background-color: black;
+    height: 100vh;
+    width:100%;
+    margin: 0;
+    -ms-overflow-style: none;
+}
+
+ a{
+    text-decoration: none;
+    color:white;
+    width: 100%;
+} 
+
+.title {
+    margin: 15px;
+    font-size: 8vh;
+    color:white;
+    text-align: center;
+}
+
+.container{
+    font-family: 'DM Serif Display', serif;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 0.5fr 2fr;
+    align-items: center;
+    text-align: center;
+}
+.menu-list{
+    height:100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    font-size: 50px;
+}
+
+.menu-list{
+    list-style-type : none;
+    padding-left: 0px;
+}
+ .menu-list>li{
+    display: grid;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+} 
+
+.menu-list > li:hover{
+    background-color: rgba(50, 48, 48, 0.754);
+    text-decoration: underline white;
+    text-underline-position : under;
+
+} 
+
+
+footer{
+    font-family: 'Noto Sans KR', sans-serif;
+    color: white;
+    text-align: center;
+    max-width: 80%;
+    margin:30px auto;
+    padding:20px;
+    border-top:solid 1px white;
+    font-size: 13px;
+}
+
+
+
+/*howtouse CSS*/
+
+.howtouse{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    line-height: 20px;
+}
+
+.explain{
+    color:white;
+    width:700px;
+    padding-left: 100px;
+}
+
+.main {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.sub{
+    font-size: 13px;
+    font-weight: 100;
+}
+
+.first{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.second{
+    margin-bottom: 30px;
+}
+
+.btn_example{
+    margin-top: 30px;
+    font-family: 'SF_HambakSnow';
+    font-size: 13px;
+    text-align: center;
+    line-height: 25px;
+    color:white;
+    background-color: black;
+    border: solid 1px white;
+    height: 25px;
+    width:150px;
+}
+
+/*
+    order.html
+*/
+
+.title{
+    font-family: 'DM Serif Display', serif;
+
+}
+img {
+    width: 70vh;
+}
+
+.order-title{
+    margin: 0 auto;
+    width:100vh;
+    display: flex;
+    justify-content: space-around;
+    color:white;
+    font-size:2vw;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.order-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.order-img:nth-child(2){
+    margin-left: 50px;
+}
+.order-img:hover{
+    border-color:4px 
+}
+
+   
+
+
+/*
+    orderdetial.html
+*/
+
+
+.order_detail{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    font-size: 13px;
+    flex-wrap:wrap;
+
+}
+
+.detail_img{
+    width:100%;
+}
+
+
+.detail_text{
+    color:white;
+    width:600px;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+#select_text{
+    font-size:15px;
+     -webkit-transform:scale(0.5); 
+    color:rgb(109, 105, 104);
+}
+
+#select_option{
+    width:80%;
+    height: 45px;
+    background-color:rgb(74, 72, 71);
+    color:white;
+    font-size: 15px;
+    margin-top:5px;
+}
+#selected_pic{
+    font-size: 13px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.file_box{
+    width: 80%;
+    margin-top: 20px;
+    height: 40px;
+    background-color: white;
+    color: black;
+}
+#order_btn{
+    font-size: 20px;
+    margin-top:10px;
+    padding-top: 3px;
+    width:120px;
+    height: 45px;
+}
+
+.explain_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.explain_img{
+    width:70%;
+}
+
+
+/*qna.html*/
+
+.qna{
+    background-color:whitesmoke;
+    width:80%;
+    border-radius: 10px;
+    margin-left:100px;
+    text-align: center;
+    height: 100%;
+}
+.table_title{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.qna_title{
+    color:black;
+    font-size:10px;
+}
+.qna_detail{
+    font-size:10px; 
+    width:100%;
+}
+
+
+.num{
+    width:10%;
+}
+.text{
+    width:60%;
+}
+.id{
+    width:10%;
+}
+.view{
+    width:10%;
+}
+.date{
+    width:10%
+}
